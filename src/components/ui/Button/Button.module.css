@@ -1,0 +1,32 @@
+.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: #6c7ae0;
+    padding: 6px 15px;
+    border: 0.3rem solid #6c7ae0;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+    background: none;
+}
+
+.Button:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0);
+}
+
+.size-m {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.size-l {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: none;
+    pointer-events: none;
+}

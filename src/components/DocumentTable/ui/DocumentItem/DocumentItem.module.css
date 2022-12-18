@@ -1,0 +1,28 @@
+.row {
+    display: contents;
+}
+
+.box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #808080;
+}
+
+td {
+    padding: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+tr {
+    display: contents;
+}
+
+.row {
+    display: contents;
+}
+
+.row:nth-child(even) td {
+    background: #f8f6ff;
+}
